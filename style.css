@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Red Hat Display', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(images/pattern-background-desktop.svg) top center no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.0em;
+    font-family: 'Red Hat Display', sans-serif;
+}
+p{
+    color: hsl(224, 23%, 55%);
+}
+main{
+    background-color: white;
+    max-width: 375px;
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.253);
+}
+main img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.informations{
+    margin: 10px;
+}
+.informations h1{
+    margin: 15px;
+    margin-top: 30px;
+}
+.informations p{
+    line-height: 1.6em;
+}
+.plan-options-button{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.icon-music{
+    margin-right: 20px;
+}
+.value-plan{
+    margin-right: 45px;
+}
+.change-button a{
+    font-weight: bolder;
+}
+.change-button a:visited{
+    color: mediumblue;
+}
+.change-button a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.payment-button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: bolder;
+    box-shadow: 0px 20px 10px hsl(225, 100%, 94%);
+}
+.payment-button:hover{
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.cancel-order-button{
+    font-weight: bolder;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+}
+.cancel-order-button:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
